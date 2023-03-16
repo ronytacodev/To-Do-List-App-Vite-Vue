@@ -1,16 +1,17 @@
 :root {
-  --primary: #EA40A4;
-  --business: #3A82EE;
+  --primary: #7900FF;
+  --business: #32c091;
   --personal: var(--primary);
-  --light: #EEE;
+  /* --light: #EEE; */
+  --light: linear-gradient(180.3deg, rgba(214, 224, 255, 1) 37.2%, rgba(254, 168, 168, 1) 137.3%);
   --grey: #888;
   --dark: #313154;
   --danger: #FF5B57;
 
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
-  --business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
-  --personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+  --business-glow: 0px 0px 4px rgba(136, 241, 124, 0.75);
+  --personal-glow: 0px 0px 4px rgba(103, 61, 243, 0.75);
 }
 
 * {
@@ -78,7 +79,7 @@ h4 {
   font-size: 1.125rem;
   padding: 1rem 1.5rem;
   color: var(--dark);
-  background-color: #FFF;
+  background-color: white;
   border-radius: 0.5rem;
   box-shadow: var(--shadow);
   margin-bottom: 1.5rem;

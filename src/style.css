@@ -3,7 +3,9 @@
   --business: #32c091;
   --personal: var(--primary);
   /* --light: #EEE; */
-  --light: linear-gradient(180.3deg, rgba(214, 224, 255, 1) 37.2%, rgba(254, 168, 168, 1) 137.3%);
+  /* --light: linear-gradient(180.3deg, rgba(214, 224, 255, 1) 37.2%, rgba(254, 168, 168, 1) 137.3%); */
+  --light: #E5D1FA;
+  /* --light: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%); */
   --grey: #888;
   --dark: #313154;
   --danger: #FF5B57;

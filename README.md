@@ -1,17 +1,24 @@
-# Vue TO-DO List App :pencil2:
+# Vue TO-DO List App with LOCALSTORAGE :pencil2:
 
-How to build a To-Do List App with Vue JS and Vite.
+How to build a To-Do List App in Vue 3 & Vite JS with LocalStorage.
 
-## STACK TECH :hammer:
+## TOOLS :hammer:
 
 * Vue 3
-* Flexbox
 * Vite
-
+* Local Storage
 
 ## Screenshot
 
-![](src/assets/screenshot.jpg)
+### Desktop :computer:
+![](src/assets/desktopScreenshot.jpg)
+
+### Mobile :iphone:
+![](src/assets//mobileScreenshot.jpg)
+
+### LocalStorage :file_folder:
+
+![](src/assets//localStorage.jpg)
 
 # Vue 3 + Vite
 

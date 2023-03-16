@@ -37,6 +37,11 @@ body {
   color: var(--dark);
 }
 
+.app {
+  width: 70%;
+  margin: auto;
+}
+
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -237,4 +242,18 @@ input:checked~.bubble::after {
 .todo-item.done .todo-content input {
   text-decoration: line-through;
   color: var(--grey);
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .app {
+    width: 95%;
+    margin: auto;
+  }
 }

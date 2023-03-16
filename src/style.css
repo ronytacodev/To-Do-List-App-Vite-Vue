@@ -66,9 +66,14 @@ h4 {
   min-width: 0;
 }
 
-.greeting .title,
-.greeting .title input {
+.greeting .title {
   color: var(--dark);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.greeting .title .text {
+  color: var(--primary);
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -207,7 +212,7 @@ input:checked~.bubble::after {
 
 .todo-item .actions button {
   display: block;
-  padding: 0.5rem;
+  padding: 0.3rem;
   border-radius: 0.25rem;
   color: #FFF;
   cursor: pointer;
